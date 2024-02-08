@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --BackgroundBlack: #000000;
+    --StoryBackground: #0D0D0D;
+    --squareGrey: #161616;
+    --spacing1: 25px;
+    --dialogueMaxWidth: 70%;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --dialogueMaxWidth: 90%;
+    }
+}
+body {
+    background-color: var(--StoryBackground);
+}
+
+
+
+@font-face {
+    font-family: "Mona Sans";
+    src: url("Mona-Sans.woff2");
+    font-weight: 900;
+    font-style: black;
+}
+
+@font-face {
+    font-family: "Mona Sans";
+    src: url("Mona-Sans.woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--BackgroundBlack);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.storyFrame {
+    background-color: var(--StoryBackground);
+    width: 1000px;
+    min-height: 100vh;
+    padding-left: var(--spacing1);
+    padding-right: var(--spacing1);
+    display: flex;
+    flex-direction: column;
+}
+
+.spacingBlock {
+    height: var(--spacing1);
+}
+
+
+.Square {
+    background-color: var(--squareGrey);
+    height: 45px;
+    /* margin-left: calc((65px - 45px) / 2);
+    margin-right: calc((65px - 45px) / 2); */
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text {
+    font-family: "Mona Sans";
+    color: #939393;
+    font-weight: 400;
+    margin-top: 10px;
+    max-width: 65%;
+    text-align: center;   
+    font-size: 16px 
+}
+
+.storyTitle .Square img {
+    height: 21px;
+    width: 21px;
+}
+
+.storyNarrative .Square img {
+    height: 21px;
+    width: 21px;
+}
+
+.storyChoice .Square img {
+    height: 21px;
+    width: 21px;
+}
+
+.storyTitle .Title {
+    font-family: "Mona Sans";
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    align-self: center;
+}
+
+.storyNarrative {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.storyDialogue-left {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 65px;
+    border-radius: 10px;
+    max-width: var(--dialogueMaxWidth);
+    border: #2B2B2B 2.5px solid;
+    padding: 8px;
+}
+
+.storyDialogue-left img {
+    background-color: var(--squareGrey);
+    height: 45px;
+    aspect-ratio: 1/1;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.storyTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: #2B2B2B 2.5px solid;
+    padding: 8px;
+    min-height: 65px;
+    border-radius: 10px;
+}
+
+.Name {
+    font-family: "Mona Sans";
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+.storyDialogue-right {
+    display: inline-flex;
+    align-self: flex-end;
+    max-width: var(--dialogueMaxWidth);
+    flex-direction: row;
+    border: #2B2B2B 2.5px solid;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.storyDialogue-right p {
+    text-align: right;
+}
+
+.storyDialogue-right img {
+    background-color: var(--squareGrey);
+    height: 45px;
+    aspect-ratio: 1/1;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+
+.storyImage {
+    width: 100%;
+}
+
+.storyChoice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.storyChoice button {
+    font-family: "Mona Sans";
+    color: #3F93F5;
+    font-weight: 900;
+    font-size: 22px;
+    background: none; /* Remove default background */
+    border: none; /* Remove default border */
+    padding: 0; /* Remove default padding */
+    text-decoration: underline; /* Add underline */
+    cursor: pointer; /* Ensure it still looks clickable */
+    margin-top: var(--spacing1);
+}

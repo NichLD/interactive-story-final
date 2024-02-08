@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive storytelling test page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="storyFrame">
+        <div class="spacingBlock"></div>
+        <div class="storyTitle">
+            <div class="Square"><img src="/assets/svg/Polygon.svg" alt=""></div>
+            <h1 class="Title">Welcome to Call's Life!</h1>
+            <div class="Square"><img src="/assets/svg/Polygon.svg" alt=""></div>
+        </div>
+        <div class="spacingBlock"></div>
+        <div class="storyNarrative">
+            <div class="Square"><img src="/assets/svg/Rectangle.svg" alt=""></div>
+            <p class="Text">"Call’s life" is an interactive game where you step into the shoes of Call, a teen navigating life after his best friend's tragic loss to drug abuse. Facing tough choices, you'll decide Leo's path through moments of grief, peer pressure, and the temptation of drugs. This game isn't just a story—it's a journey that sheds light on the real challenges and decisions teens face regarding substance abuse. By making choices for Call, you'll see firsthand the impact of these decisions, not just on him, but his friends too. "Call’s life" aims to spark conversation and awareness about drug abuse, showing how choices can lead to different paths. It's a powerful reminder that we're not alone in our struggles and that our decisions matter. Short, impactful, and relatable, this game is designed to resonate with teens, encouraging them to think critically about the choices they face.</p>
+        </div>
+        <div class="spacingBlock"></div>
+        <div class="storyTitle">
+            <div class="Square"><img src="/assets/svg/Polygon.svg" alt=""></div>
+            <h1 class="Title">Wish to play?</h1>
+            <div class="Square"><img src="/assets/svg/Polygon.svg" alt=""></div>
+        </div>
+        <div class="spacingBlock"></div>
+        <div class="storyChoice">
+            <div class="Square"><img src="/assets/svg/Star.svg" alt=""></div>   
+                <button>Click here to be redirected to the game!</button>
+        </div>
+        <div class="spacingBlock"></div>
+        <div class="storyTitle">
+            <div class="Square"><img src="/assets/svg/Polygon.svg" alt=""></div>
+            <h1 class="Title">How was this made?</h1>
+            <div class="Square"><img src="/assets/svg/Polygon.svg" alt=""></div>
+        </div>
+        <div class="spacingBlock"></div>
+        <div class="storyDialogue-left">
+            <img src="/assets/images/boy.png" alt="">
+            <p>
+                <span class="Name">Nichlas</span>
+                <br>
+                <span class="Text">I don’t think I can fit a tutorial on this all in a sigle website</span>
+            </p>
+        </div>
+        <div class="spacingBlock"></div>
+        <div class="storyDialogue-right">
+            <p>
+                <span class="Name">Someone</span>
+                <br>
+                <span class="Text">There has to be a way I can learn this!</span>  
+            </p>
+            <img src="/assets/images/boy.png" alt="">
+        </div>
+        <div class="spacingBlock"></div>
+        <div class="storyDialogue-left">
+            <img src="/assets/images/boy.png" alt="">
+            <p>
+                <span class="Name">Nichlas</span>
+                <br>
+                <span class="Text">If there is enough hype I will make a informative video on how I made this project along with the source files on github!</span>
+            </p>
+        </div>
+        <div class="spacingBlock"></div>
+        <img class="storyImage" src="/assets/images/tutorialvideomaybe.png" alt="">
+        <div class="spacingBlock"></div>
+    </div>
+    <script>
+        const button = document.querySelector('button');
+        button.addEventListener('click', () => {
+            window.location.href = 'story.html';
+        });
+    </script>
+</body>
+</html>
