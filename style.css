@@ -17,23 +17,23 @@
     :root {
         --dialogueMaxWidth: 90%;
     }
-}
-body {
-    background-color: var(--StoryBackground);
+    body {
+        background-color: var(--StoryBackground);
+    }
 }
 
 
 
 @font-face {
     font-family: "Mona Sans";
-    src: url("Mona-Sans.woff2");
+    src: url("/assets/fonts/Mona-Sans.woff2");
     font-weight: 900;
     font-style: black;
 }
 
 @font-face {
     font-family: "Mona Sans";
-    src: url("Mona-Sans.woff2");
+    src: url("/assets/fonts/Mona-Sans.woff2");
     font-weight: 400;
     font-style: normal;
 }
@@ -44,14 +44,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: start;
+    touch-action: none; 
 }
 
-.storyFrame {
+#storyFrame {
     background-color: var(--StoryBackground);
     width: 1000px;
-    min-height: 100vh;
     padding-left: var(--spacing1);
     padding-right: var(--spacing1);
+    padding-top: var(--spacing1);
     display: flex;
     flex-direction: column;
 }
@@ -175,6 +176,7 @@ body {
 
 .storyImage {
     width: 100%;
+    aspect-ratio: 16/9;
 }
 
 .storyChoice {
