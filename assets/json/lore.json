@@ -1,0 +1,61 @@
+{
+  "story": [
+    {
+      "type": "Title",
+      "title": "Choices in the Shadows"
+    },
+    {
+      "type": "image",
+      "src": "THEUK.webp",
+      "alt": "A serene UK town, the quiet before the storm."
+    },
+    {
+      "type": "narrative",
+      "text": "Nestled in a quaint UK town, where each day seamlessly blends into the next, lives Alex, a teenager perched precariously at life's many crossroads. Dreams and uncertainties intertwine, shaping the path that lies ahead. Yet, it's the shadowy choices, those moments shrouded in doubt and temptation, that threaten to define Alex's destiny."
+    },
+    {
+      "type": "narrative",
+      "text": "Alex's journey is intertwined with that of Jamie, a beacon of joy whose brightness belies the turmoil brewing beneath. Their friendship, a bond as deep as it is complex, faces the ultimate test as they navigate the stormy seas of adolescence, peer pressure, and the specter of drug abuse casting a long shadow over their futures."
+    },
+    {
+      "type": "dialogue",
+      "align": "left",
+      "image": "alex.png",
+      "name": "Alex",
+      "text": "There's something in the air tonight. It feels like the calm before a storm. Jamie's been off the radar more than usual. I hope they're okay."
+    },
+    {
+      "type": "dialogue",
+      "align": "right",
+      "image": "jamie.png",
+      "name": "Jamie",
+      "text": "Alex! You've got to come out tonight. It's not just any party; it's the kind that could change everything. You in?"
+    },
+    {
+      "type": "narrative",
+      "text": "As the evening's veil descends, the party becomes a swirling mix of faces, each hiding their own battles. Laughter rings hollow, and the music, once a source of joy, now feels like an echo of better times. It's here, amidst the revelry and the recklessness, that Alex stands at a crossroads."
+    },
+    {
+      "type": "image",
+      "src": "PARTY.webp",
+      "alt": "The pulsing heart of the party, a cacophony of choices and chances."
+    },
+    {
+      "type": "narrative",
+      "text": "The moment of choice arrives, cloaked in the guise of friendship and festivity. A choice that whispers of escape and belonging but screams of consequences yet unseen."
+    },
+    {
+      "type": "choice",
+      "choices": [
+        {
+          "text": "Turn away from the temptation, holding fast to who you are.",
+          "next": "choice_refuse_drugs.json"
+        },
+        {
+          "text": "Succumb to the moment, letting curiosity lead the way.",
+          "next": "outcome_overdose.json"
+        }
+      ]
+    }
+  ]
+}

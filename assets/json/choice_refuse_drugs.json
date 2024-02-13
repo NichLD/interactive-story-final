@@ -1,0 +1,68 @@
+{
+  "story": [
+    {
+      "type": "narrative",
+      "text": "Amidst the pulsating beats and the blur of dancing figures, Alex feels the weight of the moment. The offer of escape, wrapped in the guise of camaraderie, hangs in the air. Yet, something deep within whispers a warning, a call to stand firm."
+    },
+    {
+      "type": "dialogue",
+      "align": "left",
+      "image": "alex.png",
+      "name": "Alex",
+      "text": "Thanks, but I'll pass. It's not really my scene."
+    },
+    {
+      "type": "narrative",
+      "text": "The decision doesn't go unnoticed. Eyes flicker with surprise, some with respect, others with thinly veiled disdain. Jamie's reaction is a mix of confusion and a hint of respect, a silent acknowledgment of Alex's choice."
+    },
+    {
+      "type": "image",
+      "src": "refuse.webp",
+      "alt": "Alex, amidst the party's chaos, firmly declining the offer."
+    },
+    {
+      "type": "narrative",
+      "text": "As the night wears on, Alex observes Jamie, noticing the subtle signs of struggle beneath the facade of enjoyment. The laughter a bit too forced, the movements a tad too erratic. The sight stirs a turmoil within Alex, a battle between the urge to step in and the fear of overstepping boundaries."
+    },
+    {
+      "type": "dialogue",
+      "align": "right",
+      "image": "jamie.png",
+      "name": "Jamie",
+      "text": "Come on, Alex! Don't be such a downer. It's just a bit of fun."
+    },
+    {
+      "type": "dialogue",
+      "align": "left",
+      "image": "alex.png",
+      "name": "Alex",
+      "text": "Maybe for you, Jamie. But I can see it's more than just 'a bit of fun' for you. I'm worried."
+    },
+    {
+      "type": "narrative",
+      "text": "The admission hangs between them, a bridge and a barrier all at once. Jamie's defensiveness wavers, replaced by a glimpse of vulnerability. It's a moment of truth, a crossroads for their friendship."
+    },
+    {
+      "type": "image",
+      "src": "conversation.webp",
+      "alt": "A pivotal conversation between Alex and Jamie, filled with concern and honesty."
+    },
+    {
+      "type": "narrative",
+      "text": "Faced with the choice to intervene or to retreat, Alex stands on the brink of decisions that will echo far beyond the confines of the party."
+    },
+    {
+      "type": "choice",
+      "choices": [
+        {
+          "text": "Confront Jamie about their drug use, offering support and help.",
+          "next": "outcome_both_survive.json"
+        },
+        {
+          "text": "Decide not to interfere, keeping a distance to maintain your own well-being.",
+          "next": "outcome_friend_dies.json"
+        }
+      ]
+    }
+  ]
+}

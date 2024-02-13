@@ -1,0 +1,58 @@
+{
+    "story": [
+      {
+        "type": "narrative",
+        "text": "With a heart heavy but resolved, Alex chooses the path of compassion and confrontation. It's a decision not made lightly, knowing well the potential for conflict, but driven by a deep-seated concern for Jamie's well-being."
+      },
+      {
+        "type": "dialogue",
+        "align": "left",
+        "image": "alex.png",
+        "name": "Alex",
+        "text": "Jamie, we need to talk. I've seen you changing, and it scares me. I don't want to lose you to this."
+      },
+      {
+        "type": "dialogue",
+        "align": "right",
+        "image": "jamie.png",
+        "name": "Jamie",
+        "text": "I... I don't know what to say, Alex. I thought I had it under control."
+      },
+      {
+        "type": "narrative",
+        "text": "The vulnerability in Jamie's voice is a crack in the facade, a window into the turmoil within. It's a moment that solidifies Alex's resolve to stand by their friend, no matter the journey ahead."
+      },
+      {
+        "type": "image",
+        "src": "helping.webp",
+        "alt": "Alex offering a hand to Jamie, symbolizing support and the beginning of recovery."
+      },
+      {
+        "type": "narrative",
+        "text": "The road to recovery is fraught with challenges, each day a battle against the shadows of addiction. But with Alex's unwavering support, Jamie begins to see a glimmer of hope, a chance at a life reclaimed."
+      },
+      {
+        "type": "narrative",
+        "text": "Conversations turn into actions, actions into progress. The bond between Alex and Jamie, tested by fire, emerges stronger, a testament to their resilience and mutual support."
+      },
+      {
+        "type": "dialogue",
+        "align": "right",
+        "image": "jamie.png",
+        "name": "Jamie",
+        "text": "I couldn't have done this without you, Alex. You saved me from myself."
+      },
+      {
+        "type": "dialogue",
+        "align": "left",
+        "image": "alex.png",
+        "name": "Alex",
+        "text": "We saved each other, Jamie. That's what friends are for."
+      },
+      {
+        "type": "narrative",
+        "text": "As the story of Alex and Jamie unfolds, it becomes a beacon of hope for others facing similar struggles. Their journey, marked by moments of despair and triumph, serves as a powerful reminder of the strength found in friendship and the possibility of a new beginning."
+      }
+    ]
+  }
+  

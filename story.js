@@ -167,4 +167,4 @@ document.addEventListener('touchend', handleTouchEnd, false);
 
 
 // Initial call to load and render the first story
-loadJSON('start.json');
+loadJSON('lore.json');
